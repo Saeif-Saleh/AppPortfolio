@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context="com.example.sayyaf.appportfolio.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/activity_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/backgroundcolor"
+        android:gravity="center"
+        android:orientation="vertical"
+
+
+        >
+
+        <TextView
+            android:id="@+id/titleTextView"
+            android:layout_width="250dp"
+            android:layout_height="58dp"
+            android:gravity="center"
+            android:text="My Nanodegree Apps"
+            android:textColor="#000000"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/popularMovies"
+
+            android:layout_width="@dimen/button_width"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:background="@color/buttonColors"
+            android:text="Popular Movies " />
+
+        <Button
+            android:id="@+id/stockHawk"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="wrap_content"
+
+            android:layout_marginBottom="8dp"
+            android:background="@color/buttonColors"
+            android:text="Stock Hawk " />
+
+        <Button
+            android:id="@+id/buildItBigger"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginBottom="8dp"
+            android:background="@color/buttonColors"
+
+            android:text="Build it Bigger " />
+
+        <Button
+            android:id="@+id/mkMaterial"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="wrap_content"
+
+            android:layout_marginBottom="8dp"
+            android:background="@color/buttonColors"
+
+
+            android:text="Make Your App Material " />
+
+        <Button
+            android:id="@+id/goUbiquitous"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="wrap_content"
+
+
+            android:layout_marginBottom="8dp"
+            android:background="@color/buttonColors"
+            android:text="Go Ubiquitous " />
+
+        <Button
+            android:id="@+id/capstone"
+            android:layout_width="@dimen/button_width"
+            android:layout_height="wrap_content"
+
+
+            android:background="#E65100"
+            android:text="Capstone: My Own App" />
+    </LinearLayout>
+</ScrollView>
